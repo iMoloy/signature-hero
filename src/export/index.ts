@@ -1,0 +1,6 @@
+export { AuroraHero } from './aurora-hero.tsx'
+export type { AuroraHeroProps } from './aurora-hero.tsx'
+export { ShaderCanvas } from '../components/shader-canvas.tsx'
+export { PALETTES } from '../types/shader.ts'
+export type { PaletteId, PaletteInfo, ShaderConfig, TelemetryStats } from '../types/shader.ts'
+export { FRAGMENT_SHADER_SOURCE, VERTEX_SHADER_SOURCE } from '../shaders/aurora-shader.ts'
